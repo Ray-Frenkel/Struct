@@ -1,10 +1,6 @@
 #include"AppStore.h"
 #include<stdlib.h>
 #define _NO_DEBUG_HEAP
-/*Name: Raymond Frenkel
-Id: 206594038
-Date:10/1/21
-*/
 //=================EX3=======================
 /*This Function get get AppStore and Application and check if the app exist in the appstore if not he add, if the app exist he change the number of download the app have*/
 AppStore* AddApp(AppStore* as, Application* app)
